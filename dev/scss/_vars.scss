@@ -1,0 +1,58 @@
+$global-border-box: true!default; //only for projects that support IE8 and up
+$debug-mode:        false!default;
+
+/**
+ * Default colour for objects’ borders etc.
+ */
+$brand-color:               black;
+$brand-color-secondary:     #666;
+$brand-color-tertiary:      black;
+$brand-color-quaternary:    black;
+
+/**
+ * Base font-family.
+ */
+$base-font-family:  Arial, Helvetica, sans-serif;
+$base-font-family--weighted:  "BankGothicBT-Medium" Arial, Helvetica, sans-serif;
+$base-font-family--script: cursive;
+
+/**
+ * How big would you like round corners to be by default?
+ */
+$brand-round:       4px;
+
+/*------------------------------------*\
+    $PULL & PUSH
+\*------------------------------------*/
+
+$pull: true;
+$push: true;
+$below-desk-push:   true;
+
+
+
+$use-grids:         true;
+$use-flexbox:       false;
+$use-columns:       true;
+$use-nav:           true;
+$use-options:       false;
+$use-pagination:    false;
+$use-breadcrumb:    true;
+$use-media:         true;
+$use-marginalia:    true;
+$use-island:        true;
+$use-block-list:    true;
+$use-matrix:        false;
+$use-split:         true;
+$use-this-or-this:  false;
+$use-link-complex:  false;
+$use-flyout:        true;
+$use-arrows:        true;
+$use-sprite:        false;
+$use-icon-link:     false;
+$use-buttons:       true;
+$use-lozenges:      true;
+$use-rules:         true;
+$use-stats:         true;
+$use-greybox:       true;
+$use-jquery-ui:     false;
