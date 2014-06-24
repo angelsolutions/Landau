@@ -17,6 +17,7 @@
 /**
  * Generic utility styles etc.
  */
+@import "../../../angel-front-end-framework/GlobalScss/fonts/icon-fonts";
 @import "../../../angel-front-end-framework/GlobalScss/generic/mixins";
 @import "../../../angel-front-end-framework/GlobalScss/generic/normalize";
 @import "../../../angel-front-end-framework/GlobalScss/generic/reset";
@@ -64,6 +65,7 @@
 @import "../../../angel-front-end-framework/GlobalScss/objects/arrows";
 @import "../../../angel-front-end-framework/GlobalScss/objects/sprite";
 @import "../../../angel-front-end-framework/GlobalScss/objects/icon-link";
+@import "../../../angel-front-end-framework/GlobalScss/objects/file-icons";
 @import "../../../angel-front-end-framework/GlobalScss/objects/buttons";
 @import "../../../angel-front-end-framework/GlobalScss/objects/lozenges";
 @import "../../../angel-front-end-framework/GlobalScss/objects/legend";
@@ -73,6 +75,15 @@
 @import "../../../angel-front-end-framework/GlobalScss/objects/charting";
 @import "../../../angel-front-end-framework/GlobalScss/objects/widgets";
 @import "../../../angel-front-end-framework/GlobalScss/objects/tree";
+@import "../../../angel-front-end-framework/GlobalScss/objects/fancy-checkbox";
+@import "../../../angel-front-end-framework/GlobalScss/objects/notes";
+@import "../../../angel-front-end-framework/GlobalScss/objects/star-rating";
+
+@import "../../../angel-front-end-framework/GlobalScss/fonts/entypo";
+@import "../../../angel-front-end-framework/GlobalScss/fonts/elusive";
+@import "../../../angel-front-end-framework/GlobalScss/fonts/font-awesome";
+@import "../../../angel-front-end-framework/GlobalScss/fonts/iconic";
+@import "../../../angel-front-end-framework/GlobalScss/fonts/typicons";
 
 @import "page";
 

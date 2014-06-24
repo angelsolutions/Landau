@@ -29,8 +29,6 @@ $pull: true;
 $push: true;
 $below-desk-push:   true;
 
-
-
 $use-grids:         true;
 $use-flexbox:       false;
 $use-columns:       true;
@@ -55,4 +53,19 @@ $use-lozenges:      true;
 $use-rules:         true;
 $use-stats:         true;
 $use-greybox:       true;
+$use-star-rating:   true;
+$use-widgets:       false;
+$use-tree:          false;
+$use-pop-ups:       true;
+$use-notes:         true;
+$use-legend:        true;
+$use-info-list:     true;
+$use-fancy-checkbox:true;
+$use-charting:      false;
+$use-file-icons:    false;
 $use-jquery-ui:     false;
+
+/*------------------------------------*\
+    $@FONT-FACES
+\*------------------------------------*/
+$use-entypo:        true;
