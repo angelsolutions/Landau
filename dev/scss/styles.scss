@@ -85,9 +85,10 @@
 @import "../../../angel-front-end-framework/GlobalScss/fonts/iconic";
 @import "../../../angel-front-end-framework/GlobalScss/fonts/typicons";
 
-@import "main";
-@import "page";
-@import "nav";
+@import "base/main";
+@import "base/forms";
+@import "objects/nav";
+@import "objects/buttons";
 
 /**
  * Style trumps; helper and brand classes

@@ -5,7 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Fantastic range of men's and women's fashion brands from Landau Store</title>
+        <title>Landau Store &mdash; Login</title>
         <meta name="description" content="Fantastic range of men's and women's fashion brands from Landau Store"/>
         <meta name="keywords" content=""/>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -298,34 +298,37 @@
             <div class="page-content">
                 <div class="page-width">
 
-                    <div class="grid">
-                        <div class="grid__item one-whole">
-                            <div class="island greybox greybox--large push--top">Image here</div>
-                        </div><!--
-                     --><div class="grid__item one-quarter lap-one-half palm-one-whole">
-                            <div class="island greybox greybox--medium flush--bottom">Image here</div>
-                            <h4 class="islet primary text--center">
-                                Text here
-                            </h4>
-                        </div><!--
-                     --><div class="grid__item one-quarter lap-one-half palm-one-whole">
-                            <div class="island greybox greybox--medium flush--bottom">Image here</div>
-                            <h4 class="islet primary text--center">
-                                Text here
-                            </h4>
-                        </div><!--
-                     --><div class="grid__item one-quarter lap-one-half palm-one-whole">
-                            <div class="island greybox greybox--medium flush--bottom">Image here</div>
-                            <h4 class="islet primary text--center">
-                                Text here
-                            </h4>
-                        </div><!--
-                     --><div class="grid__item one-quarter lap-one-half palm-one-whole">
-                            <div class="island greybox greybox--medium flush--bottom">Image here</div>
-                            <h4 class="islet primary text--center">
-                                Text here
-                            </h4>
-                        </div>
+                    <div class="soft--top one-half below-desk-one-whole">
+                        <h1>Login to your account</h1>
+
+                        <p>Please enter your username and password below, and then click the Login Button.</p>
+
+                        <form action="/login.php" method="POST" name="LoginForm" id="LoginForm">
+                            <ul class="form-fields form-fields--inline">
+                              <li>
+                                <label for="Username">Email <em>(username)</em>:</label>
+                                <input name="Username" type="text" class="text-input" id="Username">
+                              </li>
+                              <li>
+                                <label for="Password">Password:</label>
+                                <input name="Password" type="password" class="text-input" id="Password">
+                              </li>
+                              <li class="form-push">
+
+                                <div class="check-list check-list--full">
+                                    <input name="rememberme" type="checkbox" id="rememberme" value="1"><label for="rememberme"><em><strong>Remember me</strong> please</em></label>
+                                </div>
+                              </li>
+                              <li class="form-push">
+                                <button name="Submit" class="btn btn--full" value="Login">Login <i class="entypo--login"></i></button>
+                              </li>
+
+                              <li class="form-push">
+                                  <p ><em>Please <strong>remember to logout</strong> for security reasons when you have finished on the website.</em></p>
+                                  <a class="btn btn--full" href="password_forgot.php">Forgotten your password?</a>
+                              </li>
+                            </ul>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -351,3 +354,5 @@
 
     </body>
 </html>
+
+

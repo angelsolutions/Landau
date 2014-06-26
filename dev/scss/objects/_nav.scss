@@ -1,0 +1,65 @@
+.nav--main{
+    margin-bottom: 0;
+    padding-bottom: $half-spacing-unit/2;
+    font-family: $base-font-family--weighted;
+    @include rem(font-size, $h4-size);
+    margin-left: -$half-spacing-unit/2;
+
+    > li{
+        padding-left:$half-spacing-unit/2;
+        > a {padding:0 $half-spacing-unit/4}
+    }
+
+    li:hover{
+        a{
+            background:white;
+            color: black;
+        }
+        .nav--children{display:block;}
+    }
+}
+
+.nav--children{
+    display: none;
+    @include rem(font-size, $h5-size);
+    width:70%;
+    position: absolute;
+    background: white;
+    color:black;
+    padding: 0 $half-spacing-unit $half-spacing-unit;
+    border: 3px solid black;
+    border-top: 0;
+    left:-3px;
+    z-index: 8;
+
+    h3{margin: $half-spacing-unit 0 0;}
+
+    li{
+        a{
+            color:black;
+            font-family: $base-font-family;
+            display: block;
+            @include rem(padding-left,5px);
+
+            &:hover{
+                background:black;
+                color:white;
+            }
+        }
+    }
+
+    @include media-query("below-desk"){
+       width:100%;
+    }
+}
+
+.nav-wrapper{
+    position: relative;
+}
+
+@include media-query("palm"){
+    .nav--brands{
+        .multi-list>li{float: none;}
+        .three-cols>li{width:auto;}
+    }
+}

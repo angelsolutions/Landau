@@ -1,6 +1,30 @@
+a{
+    color:$color-main-link;
+    &:hover{
+        color:$color-nexus-black;
+    }
+}
+
+p,table,.nav{
+    a{
+        @include link-in-text($color-main-link);
+    }
+}
+
+.link-complex{
+    @include link-in-text($color-main-link);
+}
+
+.pill,.loz{
+    background-color:$color-nexus-black;
+    color:white;
+}
+
 header, footer{
     background-color:black;
     color:white;
+
+    .text-input{border:0;}
 
     .nav a, a{
         color:white;
@@ -8,6 +32,12 @@ header, footer{
             background: white;
             color:black;
         }
+    }
+}
+
+.header__top-right{
+    @include media-query("palm"){
+        text-align:center;
     }
 }
 
@@ -32,6 +62,13 @@ header, footer{
     background:white;
 }
 
+.page-basket{
+    z-index: 15;
+    &:hover>.flyout__content{right:0;}
+}
+
+
+
 .main-logo, .main-strapline{
     display:block;
     text-transform: uppercase;
@@ -39,6 +76,14 @@ header, footer{
 
     @include media-query("below-desk"){
        text-align:center;
+    }
+}
+
+.main-logo{
+    img{border-bottom:1px solid black;}
+    &:hover{
+        background:black;
+        img{border-color:white;}
     }
 }
 
@@ -55,10 +100,9 @@ footer{
        height:auto;
     }
 
-
-}
-
-fieldset{
-    padding:0;
-    border:0;
+    .nav{
+        > li{
+        padding-left:$half-spacing-unit/2;
+        > a {padding:0 $half-spacing-unit/4}
+    }}
 }

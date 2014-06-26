@@ -1,0 +1,22 @@
+.btn{
+    color:#fff !important;
+    text-transform: uppercase;
+
+    &:hover{
+        @include transition-duration(0.5s);
+        @include transition-timing-function(ease);
+        @include box-shadow(black 0 0 4px inset);
+    }
+
+    &:hover{
+        background:#444;
+    }
+
+}
+
+.btn--primary{
+    background:black;
+    &:hover{
+        background:#444;
+    }
+}

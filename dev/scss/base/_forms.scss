@@ -1,0 +1,17 @@
+fieldset{
+    padding:0;
+    border:0;
+
+    header &{
+        position: relative;
+    }
+}
+
+.search-btn{
+    right:0;
+    color:black;
+    position: absolute;
+    top:0;
+    background:white;
+    border:0;
+}
