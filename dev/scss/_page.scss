@@ -2,7 +2,13 @@ header, footer{
     background-color:black;
     color:white;
 
-    a{color:white;}
+    .nav a, a{
+        color:white;
+        &:hover{
+            background: white;
+            color:black;
+        }
+    }
 }
 
 .page-content{
@@ -17,4 +23,42 @@ header, footer{
     margin: 0 auto;
     max-width: 1300px;
     width: 95%;
+}
+
+.page-wrapper{
+    height:auto;
+    min-height: 100%;
+    margin:0;
+    background:white;
+}
+
+.main-logo, .main-strapline{
+    display:block;
+    text-transform: uppercase;
+    @include rem(font-size, $h5-size);
+
+    @include media-query("below-desk"){
+       text-align:center;
+    }
+}
+
+footer{
+    position: relative;
+    @include rem(height,$page-footer-height);
+    @include rem(margin-top, -$page-footer-height);
+    @include rem(font-size, 13px);
+    padding:0;
+    @include rem(padding, $page-footer-height/4 0);
+    z-index:7;
+
+    @include media-query("below-desk"){
+       height:auto;
+    }
+
+
+}
+
+fieldset{
+    padding:0;
+    border:0;
 }
