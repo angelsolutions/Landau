@@ -1,8 +1,8 @@
 var gulp = require('gulp');
 var compass = require('gulp-compass');
-var uglify = require('gulp-uglify');
-var jshint = require('gulp-jshint');
-var concat = require('gulp-concat');
+//var uglify = require('gulp-uglify');
+//var jshint = require('gulp-jshint');
+//var concat = require('gulp-concat');
 
 var devpath = 'dev/'
 var buildpath = './'

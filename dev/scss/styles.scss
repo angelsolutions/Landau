@@ -1,3 +1,4 @@
+@import "BnkGoMe.css";
 /*------------------------------------*\
     $USE COMPASS CSS3 PLEASE!
 
@@ -5,7 +6,6 @@
 
 \*------------------------------------*/
 @import "compass/css3";
-@import "BnkGoMe.css";
 /*------------------------------------*\
     $IMPORTS
 \*------------------------------------*/
@@ -85,7 +85,9 @@
 @import "../../../angel-front-end-framework/GlobalScss/fonts/iconic";
 @import "../../../angel-front-end-framework/GlobalScss/fonts/typicons";
 
+@import "main";
 @import "page";
+@import "nav";
 
 /**
  * Style trumps; helper and brand classes

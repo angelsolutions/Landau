@@ -9,11 +9,13 @@ $brand-color-secondary:     #666;
 $brand-color-tertiary:      black;
 $brand-color-quaternary:    black;
 
+$color-main-link:           black;
+
 /**
  * Base font-family.
  */
 $base-font-family:  Arial, Helvetica, sans-serif;
-$base-font-family--weighted:  "BankGothicBT-Medium" Arial, Helvetica, sans-serif;
+$base-font-family--weighted:  "BankGothicBT-Light" Arial, Helvetica, sans-serif;
 $base-font-family--script: cursive;
 
 /**
@@ -69,3 +71,5 @@ $use-jquery-ui:     false;
     $@FONT-FACES
 \*------------------------------------*/
 $use-entypo:        true;
+
+$page-footer-height: 60px;

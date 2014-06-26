@@ -1,0 +1,21 @@
+a{
+    color:$color-main-link;
+    &:hover{
+        color:$color-nexus-black;
+    }
+}
+
+p,table,.nav{
+    a{
+        @include link-in-text($color-main-link);
+    }
+}
+
+.link-complex{
+    @include link-in-text($color-main-link);
+}
+
+.pill,.loz{
+    background-color:$color-nexus-black;
+    color:white;
+}

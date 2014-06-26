@@ -1,0 +1,29 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2834972, 2014-06-25T13:40:51-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Bank Gothic Light by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/bank-gothic/light/
+ *
+ * Webfont: Bank Gothic Medium by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/bank-gothic/medium/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2834972
+ * Licensed pageviews: 550,000
+ * Webfonts copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ *
+ * © 2014 MyFonts Inc
+*/
+
+
+@font-face {font-family: 'BankGothicBT-Light';src: url('fonts/2B421C_0_0.eot');src: url('fonts/2B421C_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2B421C_0_0.woff') format('woff'),url('fonts/2B421C_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'BankGothicBT-Medium';src: url('fonts/2B421C_1_0.eot');src: url('fonts/2B421C_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/2B421C_1_0.woff') format('woff'),url('fonts/2B421C_1_0.ttf') format('truetype');}
