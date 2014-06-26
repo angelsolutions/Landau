@@ -26,4 +26,10 @@
 @font-face {font-family: 'BankGothicBT-Light';src: url('fonts/2B421C_0_0.eot');src: url('fonts/2B421C_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2B421C_0_0.woff') format('woff'),url('fonts/2B421C_0_0.ttf') format('truetype');}
 
 
-@font-face {font-family: 'BankGothicBT-Medium';src: url('fonts/2B421C_1_0.eot');src: url('fonts/2B421C_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/2B421C_1_0.woff') format('woff'),url('fonts/2B421C_1_0.ttf') format('truetype');}
+@font-face {
+    font-family: 'BankGothicBT-Medium';
+    src: url('fonts/2B421C_1_0.eot');
+    src: url('fonts/2B421C_1_0.eot?#iefix') format('embedded-opentype'),
+    url('fonts/2B421C_1_0.woff') format('woff'),
+    url('fonts/2B421C_1_0.ttf') format('truetype');
+}
