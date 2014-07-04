@@ -20,6 +20,18 @@ p,table,.nav{
     color:white;
 }
 
+.demo-code{
+    background:#eee;
+    padding: $base-spacing-unit;
+    @include border-radius($brand-round);
+    margin: $base-spacing-unit 0;
+    @include box-shadow(darken(#eee,15) 0 0 8px inset);
+
+    > pre{
+        margin-bottom: 0;
+    }
+}
+
 header, footer{
     background-color:black;
     color:white;
@@ -39,6 +51,7 @@ header, footer{
     @include media-query("palm"){
         text-align:center;
     }
+
 }
 
 .page-content{
